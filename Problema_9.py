@@ -11,7 +11,7 @@ def validar_numeros_correctos(mensaje):
             else:
                 print("¡ERROR: DEBE SER UN NÚMERO POSITIVO!")
         except ValueError:
-            print("¡ERROR: ENTRADA INVÁLIDA. INGRESE UN NÚMERO ENTERO!")
+            print("¡ERROR: ENTRADA INVÁLIDA. INGRESE UN NÚMERO!")
 
 def menu():
     while True:
